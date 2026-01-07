@@ -106,6 +106,8 @@ These results indicate the systems are mathematically distinct and perfectly sep
 
 └── README.md
 
+├──.gitignore
+
 
 
 
@@ -161,6 +163,7 @@ Notes:
 The notebook is intentionally left unchanged to preserve audit integrity.
 
 All reproducibility steps are handled through external setup files.
+
 
 
 
