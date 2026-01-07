@@ -116,39 +116,17 @@ These results indicate the systems are mathematically distinct and perfectly sep
 
 \## How to Run (Notebook Unchanged)
 
-
-
-> ⚠️ The notebook loads the dataset from an absolute path.  
-
-> To preserve the notebook exactly as submitted, environment setup is handled externally.
-
-
-
-\### 1. Clone the repository
-
 ```bash
-
-git clone https://github.com/YOUR\_USERNAME/symmetric-music-system-ml.git
-
+git clone https://github.com/OneFiftySix/symmetric-music-system-ml.git
 cd symmetric-music-system-ml
-
-
-
-Install dependencies
-
 pip install -r requirements.txt
+bash setup_paths.sh
+jupyter notebook
 
-
-
-Set up dataset path
-
-bash setup\_paths.sh
-
-
-
-Run the notebook
-
-Capstone-Project-MasiN.ipynb
+### Notes
+- The notebook uses an absolute path for the dataset and is not modified.
+- `setup_paths.sh` prepares the dataset so the notebook can run as-is.
+- On Windows: use WSL (recommended) or manually copy the dataset to the exact path used in the notebook.
 
 
 
@@ -183,6 +161,7 @@ Notes:
 The notebook is intentionally left unchanged to preserve audit integrity.
 
 All reproducibility steps are handled through external setup files.
+
 
 
 
