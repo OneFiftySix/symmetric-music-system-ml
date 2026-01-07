@@ -148,7 +148,7 @@ bash setup\_paths.sh
 
 Run the notebook
 
-Capstone-Project-MasiN (4).ipynb
+Capstone-Project-MasiN.ipynb
 
 
 
@@ -183,4 +183,5 @@ Notes:
 The notebook is intentionally left unchanged to preserve audit integrity.
 
 All reproducibility steps are handled through external setup files.
+
 
