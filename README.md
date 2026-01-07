@@ -94,9 +94,9 @@ These results indicate the systems are mathematically distinct and perfectly sep
 
 \## Repository Structure
 
-├── Capstone-Project-MasiN (4).ipynb # Full analysis and ML pipeline
+├── Capstone-Project-MasiN.ipynb # Full analysis and ML pipeline
 
-├── Final Project Masin.pdf # Presentation and business context
+├── Slides.pdf # Presentation and business context
 
 ├── extended\_octave\_data.csv # Dataset used by the notebook
 
@@ -183,5 +183,6 @@ Notes:
 The notebook is intentionally left unchanged to preserve audit integrity.
 
 All reproducibility steps are handled through external setup files.
+
 
 
